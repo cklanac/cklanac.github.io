@@ -19,3 +19,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Fixes "invalid date... in the YAML front matter." in Travis build
+# https://github.com/jekyll/jekyll/issues/3330
+exclude: [vendor]
