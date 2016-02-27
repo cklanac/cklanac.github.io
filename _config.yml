@@ -7,14 +7,15 @@
 
 # Site settings
 title: Rough Draft
-subtitle: Just another dev blog.
+subtitle: Chris Klanac's development notebook
 # email: your-email@domain.com
 description: > # this means to ignore newlines, content must be indented
-  Chris Klanac's development blog and notes.
+  Chris Klanac's development notebook
 # It appears in your document head meta (for Google search results) and in your feed.xml
 
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink:     none
+permalink: none
+
 url: "http://cklanac.github.io/" # the base hostname & protocol for your site
 
 twitter_username: cklanac
