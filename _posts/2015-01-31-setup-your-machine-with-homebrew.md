@@ -44,17 +44,40 @@ Check to see if git is installed and which version
 	git --version
 	git version 2.4.9 (Apple Git-60)
 
-The above is installed with OSX. Install our own version using Homebrew.
+The above is installed with OSX. Install our own version using Homebrew `brew install git`
 
 	brew install git
-	which git
-	/usr/local/bin/git
-	git --version
-	git version 2.6.2
+    ==> Downloading https://homebrew.bintray.com/bottles/git-2.6.2.el_capitan.bottle
+    ######################################################################## 100.0%
+    ==> Pouring git-2.6.2.el_capitan.bottle.tar.gz
+    ==> Caveats
+    The OS X keychain credential helper has been installed to:
+      /usr/local/bin/git-credential-osxkeychain
+
+    The "contrib" directory has been installed to:
+      /usr/local/share/git-core/contrib
+
+    Bash completion has been installed to:
+      /usr/local/etc/bash_completion.d
+
+    zsh completion has been installed to:
+      /usr/local/share/zsh/site-functions
+    ==> Summary
+        /usr/local/Cellar/git/2.6.2: 1398 files, 33M
+
+Then double check that it is properly linked:
+
+    which git
+    /usr/local/bin/git
+
+    git --version
+    git version 2.6.2
 
 > Note: Homebrew packages are more recent than the pre-installed version, but not always up-to-date with the latest.
 
-Configure Git with your name and email address.
+#### Configure Git
+
+Add your name and email address.
 
     git config --global user.name "Your Name"
     git config --global user.email you@example.com
@@ -65,7 +88,7 @@ Setup credential helper so you can use https repo without entering your password
 
 Next time you checkout a private repo or push to a public repo you'll be asked for your password which will be set in Keychain Access.
 
-Enable Git completion
+#### Enable Git completion
 
 > Note the Caveats in the output when we installed Git above
 
@@ -98,7 +121,6 @@ Verify that it works. Open a new terminal window or `source ~/.bash_profile`.
 
 	git co<tab><tab>
 	commit   config
-
 
 ### Install Ruby
 

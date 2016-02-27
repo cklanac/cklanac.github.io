@@ -9,7 +9,8 @@
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></li>
+          <li><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p></li>
+
         </ul>
       </div>
 
