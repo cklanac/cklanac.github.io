@@ -13,8 +13,11 @@ description: > # this means to ignore newlines, content must be indented
   Chris Klanac's development notebook
 # It appears in your document head meta (for Google search results) and in your feed.xml
 
-baseurl: "" # the subpath of your site, e.g. /blog
-permalink: none
+# the subpath of your site, e.g. /blog
+baseurl: ""
+
+# https://jekyllrb.com/docs/permalinks/#built-in-permalink-styles
+permalink: pretty
 
 url: "http://cklanac.github.io/" # the base hostname & protocol for your site
 
@@ -24,8 +27,9 @@ github_username:  cklanac
 # Build settings
 markdown: kramdown
 
+# http://kramdown.gettalong.org/parser/gfm.html
 kramdown:
-  input: GFM # http://kramdown.gettalong.org/parser/gfm.html
+  input: GFM
 
 # Fixes "invalid date... in the YAML front matter." in Travis build
 # https://github.com/jekyll/jekyll/issues/3330
