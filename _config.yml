@@ -28,8 +28,9 @@ github_username:  cklanac
 markdown: kramdown
 
 # http://kramdown.gettalong.org/parser/gfm.html
+# http://jekyllrb.com/docs/configuration/#kramdown
 kramdown:
-  input: GFM
+ input: GFM
 
 # Fixes "invalid date... in the YAML front matter." in Travis build
 # https://github.com/jekyll/jekyll/issues/3330
