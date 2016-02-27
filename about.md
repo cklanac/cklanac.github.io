@@ -13,7 +13,7 @@ I'm a web developer with 10+ years as team lead and/or software development mana
 
 [![Webmaster in a Nutshell](http://akamaicovers.oreilly.com/images/9781565923256/cat.gif)](http://shop.oreilly.com/product/9781565923256.do)
 
-> Released in 1999!? I wonder if I still have my copy somewhere?
+> Webmaster in a Nutshell was released in 1999! I wonder if I still have my copy somewhere?
 
 On the side, I'm also a charter boat captain (50 ton masters) and enjoy tinkering on my boat. And on a personal note, I'm married to a wonderful woman Amy Klanac who is a UX Architect. We have a cat, of course.
 
