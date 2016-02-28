@@ -79,7 +79,7 @@ Serve up the site
 
     jekyll serve --watch
 
-Open site in your browser: [http://localhost:4000](http://localhost:4000)
+Open site in your browser: `http://localhost:4000`
     
 ### Commit and Push
 
