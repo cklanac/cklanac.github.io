@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Kitchen-Sink of Skills
-
 ---
 
 I few weeks ago I was interviewing developers. One of the candidates asked what I/we look for when hiring. Writing it down ended up to be an interesting exercise. It ended up being a kitchen sink list of developer skills.

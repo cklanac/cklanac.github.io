@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Create Digital Ocean Droplet
-
 ---
+
+One of the tasks of wrapping up my last project was to write up some documentation on how I created the D.O. Droplet and configured the server. The project was a fairly simple Craft CMS site, so nothing crazy complex there. But I also added some notes on protecting important bits like database passwords by storing them in the apache config.
+
 
 ## Create SSH Keys before creating a Droplet
 Create your SSH keys before you create the droplet. This will allow you to easily add the keys when creating the droplet. [Create SSH  Keys]({% post_url 2015-04-01-create-ssh-keys %})
@@ -22,7 +24,6 @@ Screenshot of droplet config
 In the console:
 
     ssh root@droplet_ip_address
-
 
 ## Secure Server
 In step 6 of the [How To Use SSH Keys with DigitalOcean Droplets](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets) guide it describes how to lockdown the server by disabling login with password and allowing only SSH keys.
@@ -79,10 +80,10 @@ In /etc/apache2/sites-available/example.com:
 </VirtualHost>
 
 <Directory "/var/www/example.com/public">
-	Options FollowSymLinks
-	AllowOverride All
-	Order allow,deny
-	Allow from all
+    Options FollowSymLinks
+    AllowOverride All
+    Order allow,deny
+    Allow from all
 </Directory>
 ```
 

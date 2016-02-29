@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Setup Craft Locally
-
 ---
 
 ### Local Virtual Host Config

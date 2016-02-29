@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Create SSH Keys
-
 ---
 
 Eventually you will need to create SSH keys for a remote terminal, SFTP or a hosted service. The SSH keys are the recommended way to login to a SSH server. Besides providing authentication for the Secure Shell itself, the keys are also used for SFTP and SCP, and used for passwordless login for services like GitHub and BitBucket
