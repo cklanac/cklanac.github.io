@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Github Flavored Ruby for Github-Pages
-
+title: Github Flavored Ruby for Github Pages
 ---
+
+GitHub uses a specific version of Ruby to run GitHub Pages, currently at 2.1.7. This post walks thru installing `rbenv`, and `ruby-build-github` to get the same Ruby build that Pages uses.
 
 ## A little background
 

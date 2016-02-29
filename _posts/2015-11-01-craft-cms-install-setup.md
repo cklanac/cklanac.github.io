@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Craft CMS Install Setup
-
 ---
 
 Step-By-Step Craft CMS Install and Config For Multi-Environment. The following guide combines information from Craft CMS documentation, several blog posts and StackOverflow answers.

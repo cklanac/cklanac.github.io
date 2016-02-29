@@ -1,12 +1,9 @@
 ---
 layout: post
 title:  Why Homebrew?
-
 ---
 
-## Why [Homebrew?](http://brew.sh)
-
-Seriously, Homebrew is pretty cool. It makes the process of installing and updating key packages like Ruby, Node and Git incredibly simple.
+Homebrew is pretty cool. It makes the process of installing and updating key packages like Ruby, Node and Git incredibly simple. And properly configures permissions and PATH info so you don't need to muck around with it.
 
 - It installs packages `/usr/local/` then symlinks them into the /bin so you don't to mess with your $PATH
 - It correctly sets permissions on `/usr/local` so you don't need to `sudo ...` 

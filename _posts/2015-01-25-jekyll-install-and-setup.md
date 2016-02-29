@@ -1,13 +1,10 @@
 ---
 layout: post
 title: Obligatory Jekyll Install and Setup Post
-
 ---
 
-Obligatory Jekyll Install and Setup Post
-=======================
 
-Apparently, everyone that creates a Jekyll blog is then obliged to also create a how to install Jekyll post. It seems to be the thing to do. 
+I noticed that almost everyone that creates a Jekyll-based blog also creates a how-to install Jekyll post. It's a bit kitschy, but it's an Internet tradition! My post combines instructions found on the following pages, it probably doesnt really contain anything new, but, as far as I can tell, it is the "proper" way to install Jekyll.
 
 The post combines instructions found on the following pages. And, as far as I can tell, it is the "proper" way to install Jekyll. 
 
@@ -25,12 +22,15 @@ The post combines instructions found on the following pages. And, as far as I ca
 
 ### Install Ruby vs Github Flavored Ruby
 
-While setting up my local Jekyll blog environment I ran across the following on the Github-pages Gem repo.
+This is an important bit... While setting up my local Jekyll blog environment I ran across the following documentation on the Github-pages Gem repo.
 
 > Although Jekyll itself may be compatible with prior or future versions of Ruby, different execution environments yield different results. Ruby 1.8.7 parses YAML differently than 1.9.3, for example, and Kramdown has trouble processing mailto links prior to 1.9.3. In order to ensure that building locally consistently results in the same build as what appears when published, it's essential that Ruby itself is versioned along side the Gem, despite no known incompatibilities.
 
-This seems pretty explicit about using a particular Ruby build. Which is in contrast to the instructions on [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/). So you can easily `brew install ruby` which should work in most cases. Or follow my post to install [Github Flavored Ruby for Github-Pages]({% post_url 2015-06-21-github-flavored-ruby-for-pages %})
+This seems pretty explicit about using a particular Ruby build which is in stark contrast to the documentation on [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 
+So you can `brew install ruby` (below) which will install a recent Ruby formulae and it should work in most cases. Or you can follow my post on how-to install [Github Flavored Ruby for Github-Pages]({% post_url 2015-06-21-github-flavored-ruby-for-pages %}) to install the specific version of Ruby that GitHub runs for Pages.
+
+Moving on, install Ruby.
 
     brew install ruby
 

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Setup Your Machine With Homebrew
-
+title: Install Git, Ruby and Node using Homebrew
 ---
+
+As previously mentioned, Homebrew rocks. This post walks thru installing Homebrew and then installing Git, Ruby and Node. As well as configuring git autocompletion.
 
 ### Install Homebrew
 

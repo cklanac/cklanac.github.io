@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Setup Craft Locally
-
 ---
 
-### Local Virtual Host Config
 Configure a user-friendly name (e.g. local.example.dev) in the local `/private/etc/hosts` file to point to local environment. And, optionally, configure a name (e.g. stage.example.dev, example.com) to point to the server.
 
 File: /private/etc/hosts
