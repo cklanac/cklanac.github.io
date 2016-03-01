@@ -21,7 +21,7 @@ Pull down image
 	docker pull cklanac/starter-kit
 ```
 
-![](/img//12B3CB8259A42D2455D86CC12433C98A.jpg)
+![docker login](/img/12B3CB8259A42D2455D86CC12433C98A.jpg)
 
 ## Copy src from container to local drive (optional)
 We'll create a temporary container from the image. And then copy the source out of the container to our local drive so it will be easier to edit. 
@@ -53,7 +53,7 @@ Now we'll create our working container running in the background as a daemon (`-
 
 Point your browser at [http://<VirtualBoxIP>:3000]
 
-![](/img//2F9AE1B6ABE0AA7514782DD1EFFA0F00.jpg)
+![navigate to localhost](/img/2F9AE1B6ABE0AA7514782DD1EFFA0F00.jpg)
 
 ## And for the cool part...
 Open `~/Code/starter-kit/app/index.html` in your favorite editor and update the "Features" title.
@@ -62,7 +62,7 @@ Open `~/Code/starter-kit/app/index.html` in your favorite editor and update the 
 
 Save your changes and the gulp filewatchers in the Web Starter Kit will see the change, compile/transpile the changes and refresh the browsers via BrowserSync. Fun more fun open multiple browsers and make more changes, even scroll and click the nav. 
 
-![](/img//82CDFA9F33BB594BEFA2936F377C67B2.jpg)
+![Edit something](/img/82CDFA9F33BB594BEFA2936F377C67B2.jpg)
 
 ### :-) Build a new image based on update source
 
@@ -70,7 +70,7 @@ Save your changes and the gulp filewatchers in the Web Starter Kit will see the 
 
 Notice the cache hits in the screenshot below, particularly Steps 3 and 5. Those layers are before the source layer and nothing changed so the build process uses the cached layers which is a bit faster
 
-![](/img//A12411585208C186CBA673DCF5A6E547.jpg)
+![using cache](/img/A12411585208C186CBA673DCF5A6E547.jpg)
 
 ### Push update image to Docker Hub
 
@@ -78,9 +78,9 @@ Notice the cache hits in the screenshot below, particularly Steps 3 and 5. Those
 
 Similar to the build process, the push process doesn't need to upload layers that already exist in the hub. See the "Image already exists" on the screen shot below
 
-![](/img//A0CE63A2D2E2E3559471A1C175C58DB0.jpg)
+![cached parts](/img/A0CE63A2D2E2E3559471A1C175C58DB0.jpg)
 
 Finally, to hammer the point home. Pull up the version on ImageLayers.com to see how Docker manages the image layers.
 
-![](/img//99F5A2623CBDC5DD5E251B2C7E43F1AD.jpg)
+![imagelayers](/img/99F5A2623CBDC5DD5E251B2C7E43F1AD.jpg)
 

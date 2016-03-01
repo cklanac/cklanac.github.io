@@ -5,13 +5,13 @@ title: Create Docker Image from Dockerfile
 
 Create a docker image from an existing repo and using a Dockerfile and a base image. Then psuh the Docker image to DockerHub.
 
-The Docker [documentation](https://docs.docker.com/engine/introduction/understanding-docker/) says that a "Docker image is a read-only template." Conceptually, it is similar to a snapshot of a virtual machine (e.g. VirtualBox or VMWare). Except, instead of building the VM manually and then taking a snapshot, a Docker image is built using a Dockerfile.
+The Docker [documentation](https://docs.docker.com/engine/understanding-docker/) says that a "Docker image is a read-only template." Conceptually, it is similar to a snapshot of a virtual machine (e.g. VirtualBox or VMWare). Except, instead of building the VM manually and then taking a snapshot, a Docker image is built using a Dockerfile.
 
 A Dockerfile is simply a set of instructions, think "recipe", for building the image. It's basically the commands you would execute when building the machine manually. When you execute `docker build ...` docker steps through the Dockerfile running each instruction in order. Each instructions creates a layer in our image.
 
 > [ImageLayers](https://imagelayers.io/) is a great tool to visualize the layers shared between images.
 
-Docker images do not run on their own. From the [documentation](https://docs.docker.com/engine/introduction/understanding-docker/)...  "Docker containers are similar to a directory. A Docker container holds everything that is needed for an application to run. Each container is created from a Docker image. Docker containers can be run, started, stopped, moved, and deleted. Each container is an isolated and secure application platform. Docker containers are the run component of Docker."
+Docker images do not run on their own. From the [documentation](https://docs.docker.com/engine/understanding-docker/)...  "Docker containers are similar to a directory. A Docker container holds everything that is needed for an application to run. Each container is created from a Docker image. Docker containers can be run, started, stopped, moved, and deleted. Each container is an isolated and secure application platform. Docker containers are the run component of Docker."
 
 So we're going to create a Dockerfile, which we'll use to create an Image. Next, we'll verify the image works correctly by creating a Container. Finally, we'll login to Docker Hub and push our image to the repo.
 
